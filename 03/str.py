@@ -110,19 +110,61 @@ s = 'Hello Java Java Java'
 print(s.replace('Java','Python'))
 
 # 분리
-s = 'one:two:three'
+s = 'one:two:three:four'
 r = s.split(':')
 print(r, type(r))
 
-print('=============== 문자열 연산: 포멧팅 ==================')
-"""epoch = 1000
-init = (0,0)
-diff = 10
+r = s.split(':', 2)
+print(r)
 
-"epoch=" + str(100) + "회 초기값" + str(init)
+r = s.rsplit(':', 2)
+print(r)
 
-f'epoch=회, 초기값: {init}'
+lines = """1st line
+2nd line
+3rd line
+4th line
 """
+
+r = lines.split('\n')
+print(r)
+# = print(lines.split('\n'))
+
+r = lines.splitlines()
+print(r)
+
+# 결합
+s = ' '.join(r)
+print(s)
+
+# 판별
+print('1234'.isdigit())
+print('abcd'.isalpha())
+print('1234'.isalpha())
+print('abcdefg'.islower())
+print('ABCDEFG'.isupper())
+
+print('=============== 문자열 연산: 포멧팅 ==================')
+name = '둘리'
+age = 10
+
+# name: 둘리, age: 10
+f1 = "name:" + name + ",age:" + str(10)
+print(f1)
+
+f2 = "name:" + format(name, 's') + ", age" + format(age, 'd')
+print(f2)
+
+f3 = "name: {}, age: {}"
+print(f3.format(name, age))
+
+f4 = "name: {1}, age: {0}"
+print(f4.format(age, name))
+
+f5 = f'name: {name}, age: {age}'
+print(f5)
+
+
 
 
 
