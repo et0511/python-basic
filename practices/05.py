@@ -4,6 +4,11 @@ lst = [10, 12, 14, 15, 17, 18, 19, 20, 25, 30, 32, 33, 37, 40, 42, 44, 46, 50]
 count = 0
 s = 0
 for n in lst:
-    print(n)
+    if n % 3 == 0:
+        count = count + 1
+        s = s + n
+    else:
+        continue
+
 
 print(f'3의 배수의 갯수:{count}, 3의 배수의 합:{s}')
