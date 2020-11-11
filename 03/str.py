@@ -21,7 +21,7 @@ print(s3)
 print('=============== escape ==================')
 print('Hello\nWorld')
 print("I say \"Hello World\" ")
-print("I sat 'Hello world'")
+print("I say 'Hello world'")
 print("둘리\t010-0000-0000")
 
 print('=============== 문자열 연산: 길이 ==================')
