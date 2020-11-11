@@ -114,8 +114,6 @@ s = 'one:two:three'
 r = s.split(':')
 print(r, type(r))
 
-
-
 print('=============== 문자열 연산: 포멧팅 ==================')
 """epoch = 1000
 init = (0,0)
