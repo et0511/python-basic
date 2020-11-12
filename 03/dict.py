@@ -15,7 +15,7 @@ print('========== 인덱스 대신에 키로 데이터 접근 ===========')
 print(d1['baseball'])
 
 print('========== *, + 연산은 지원하지 않는다. ===========')
-# d5 = d1 +{'valleyball' : 6}
+# d5 = d1 + {'valleyball' : 6}
 # d5 = d1 * 2
 
 print('========== 크기 ===========')
@@ -23,7 +23,7 @@ print(len(d1))
 
 print('========== not, not in ===========')
 print('soccer' in d1)
-print('soccer'not in d1)
+print('soccer' not in d1)
 
 print('========== 다양한 타입의 키를 사용할 수 있다. ===========')
 d6 = {}
