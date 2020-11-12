@@ -12,3 +12,14 @@ for n in lst:
 
 
 print(f'3의 배수의 갯수:{count}, 3의 배수의 합:{s}')
+
+
+
+kount = 0
+s1 = 0
+for t in range(1000):
+    if t % 2 == 0:
+        kount = kount + 1
+        s1 = s1 + t
+
+print(f'2의 배수의 개수: {kount}, 2의 배수의 합: {s1}')
