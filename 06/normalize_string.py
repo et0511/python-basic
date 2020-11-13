@@ -6,7 +6,7 @@
 
 import re
 
-states = ['alabama', 'Georgia!', 'Georgia','Georgia','Georgia', ' FlorIda', 'south carolina', 'West virginia?']
+states = ['alabama ', 'Georgia!', 'Georgia','Georgia','Georgia', ' FlorIda', 'south carolina', 'West virginia?']
 
 def clean_strings(strings):
     results = []
