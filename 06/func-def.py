@@ -5,7 +5,7 @@ def dummy():
     pass        # 아무것도 안하는 블록을 만듬
 
 
-def func1():
+def func1(a):
     print('Hello World')
 
 
@@ -13,20 +13,26 @@ def func2(name):
     print('Hello' + name)
 
 
-def func3():
-    return'Hello World'
+def func3(b):
+    b = 'HW'
+#    return'Hello World'
 
+a = 'ggg'
+print(a)
+func3('a')
+b = func3('a')
+print(a)
 
 def times(a, b):
     return a * b
 
 
-dummy()
-func1()
-func2('강신원')
-s = func3()
-n = times(2, 2)
-print(s, n)
+#dummy()
+#func1()
+#func2('강신원')
+#s = func3()
+#n = times(2, 2)
+#print(s, n)
 
 
 print('========== 여러 값을 반환할 수 있다. ===========')
