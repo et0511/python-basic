@@ -6,10 +6,12 @@
 #a.reverse()
 #print(a)
 
-l = ['Python Programming!']
-l.reverse()
-print(l)
+l = input('문자를 입력하세요.: ')
+b = ''
+for r in l:
+    b = r + b
 
+print(b)
 
-# p = ('Python Programming!')
-
+# l = input('문자를 입력하세요.: ')
+# print(l[::-1])
